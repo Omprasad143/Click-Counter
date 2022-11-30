@@ -1,0 +1,59 @@
+/* Write your CSS here */
+
+.counter-container {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  background-color: #f1f5f8;
+  height: 100vh;
+}
+
+.counter-heading {
+  font-family: 'Roboto';
+  font-size: 40px;
+  text-align: center;
+  color: #2d3a35;
+  font-weight: 800;
+}
+
+@media screen and (min-width: 768px) {
+  .counter-heading {
+    font-size: 50px;
+  }
+}
+
+.counter-value {
+  color: #c20a72;
+  font-weight: 800;
+}
+
+.description {
+  text-align: center;
+  font-family: 'Roboto';
+  color: #2d3a35;
+  font-size: 20px;
+}
+
+@media screen and (min-width: 768px) {
+  .description {
+    font-size: 20px;
+  }
+}
+
+.button-container {
+  text-align: center;
+}
+
+.button {
+  background-color: #007bff;
+  color: #ffffff;
+  border-radius: 7px;
+  font-family: 'Roboto';
+  border: none;
+  padding-left: 10px;
+  padding-right: 10px;
+  padding-bottom: 10px;
+  padding-top: 10px;
+  outline: none;
+  cursor: pointer;
+}
